@@ -91,6 +91,7 @@
   --vspace-4: calc(4 * var(--space));
   --vspace-4_5: calc(4.5 * var(--space));
   --vspace-5: calc(5 * var(--space));
+  --vspace-6: calc(6 * var(--space));
   --text-scale-ratio: 1.2;
   --text-size: var(--base-font-size);
   --text-xs: calc((var(--text-size) / var(--text-scale-ratio)) / var(--text-scale-ratio));
@@ -2999,9 +3000,10 @@ img.u-pull-left {
 }
 
 .s-works {
-  padding-top: var(--vspace-5);
+  padding-top: var(--vspace-6);
   padding-bottom: var(--vspace-3_5);
 }
+<!-- was var(--vspace-5) -->
 
 .s-works .h1 {
   margin-top: 0;
