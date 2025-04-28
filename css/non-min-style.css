@@ -2916,9 +2916,10 @@ img.u-pull-left {
   }
 }
 <!-- was padding-top: var(--vspace-5) -->
+<!--  padding-bottom: var(--vspace-3_5); -->
 .s-works {
   padding-top: var(--vspace-3);
-  padding-bottom: var(--vspace-3_5);
+  padding-bottom: var(--vspace-5);
 }
 .s-works .h1 {
   margin-top: 0;
