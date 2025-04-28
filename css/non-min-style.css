@@ -993,25 +993,21 @@ h2,
   font-size: var(--text-xxl);
   line-height: var(--vspace-1_5);
 }
-
 h3,
 .h3 {
   font-size: var(--text-xl);
   line-height: var(--vspace-1_25);
 }
-
 h4,
 .h4 {
   font-size: var(--text-lg);
   line-height: var(--vspace-1);
 }
-
 h5,
 .h5 {
   font-size: var(--text-md);
   line-height: var(--vspace-0_875);
 }
-
 h6,
 .h6 {
   font-family: var(--font-1);
@@ -1029,23 +1025,19 @@ b {
   font-size: inherit;
   line-height: inherit;
 }
-
 em,
 i {
   font-style: italic;
 }
-
 strong,
 b {
   font-weight: 600;
 }
-
 small {
   font-size: 75%;
   font-weight: 400;
   line-height: var(--vspace-0_5);
 }
-
 blockquote {
   margin: 0 0 var(--vspace-1) 0;
   padding: var(--vspace-1) var(--vspace-1_5);
@@ -1068,7 +1060,6 @@ blockquote p {
   color: var(--color-text-dark);
   padding: 0;
 }
-
 blockquote cite {
   display: block;
   font-family: var(--font-1);
@@ -1077,41 +1068,34 @@ blockquote cite {
   line-height: var(--vspace-0_75);
   font-style: normal;
 }
-
 blockquote cite:before {
   content: "\2014 \0020";
 }
-
 blockquote cite,
 blockquote cite a,
 blockquote cite a:visited {
   color: var(--color-text-light);
   border: none;
 }
-
 figure img,
 p img {
   margin: 0;
   vertical-align: bottom;
 }
-
 figure {
   display: block;
   margin-left: 0;
   margin-right: 0;
 }
-
 figure img+figcaption {
   margin-top: var(--vspace-1);
 }
-
 figcaption {
   font-style: italic;
   font-size: var(--text-sm);
   text-align: center;
   margin-bottom: 0;
 }
-
 var,
 kbd,
 samp,
@@ -1119,13 +1103,11 @@ code,
 pre {
   font-family: var(--font-mono);
 }
-
 pre {
   padding: var(--vspace-0_75) var(--vspace-1) var(--vspace-1);
   background: var(--color-gray-9);
   overflow-x: auto;
 }
-
 code {
   font-size: var(--text-sm);
   line-height: 1.6rem;
@@ -1137,7 +1119,6 @@ code {
   color: var(--color-text-dark);
   border-radius: 3px;
 }
-
 pre>code {
   display: block;
   white-space: pre;
@@ -1146,11 +1127,9 @@ pre>code {
   margin: 0;
   border: none;
 }
-
 del {
   text-decoration: line-through;
 }
-
 abbr {
   font-family: var(--font-1);
   font-weight: 600;
@@ -1158,19 +1137,16 @@ abbr {
   text-transform: lowercase;
   letter-spacing: .1em;
 }
-
 abbr[title],
 dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
   text-decoration: none;
 }
-
 mark {
   background: var(--color-white);
   color: var(--color-black);
 }
-
 hr {
   border: solid var(--color-border);
   border-width: .1rem 0 0;
@@ -1178,19 +1154,16 @@ hr {
   margin: var(--vspace-2) 0 calc(var(--vspace-2) - 1px);
   height: 0;
 }
-
 hr.fancy {
   border: none;
   margin: var(--vspace-2) 0;
   height: var(--vspace-1);
   text-align: center;
 }
-
 hr.fancy::before {
   content: "*****";
   letter-spacing: .3em;
 }
-
 .lead,
 .attention-getter {
   font-family: var(--font-1);
@@ -1199,14 +1172,12 @@ hr.fancy::before {
   line-height: var(--vspace-1_25);
   color: var(--color-text-dark);
 }
-
 .pull-quote {
   position: relative;
   padding: 0;
   margin-top: 0;
   text-align: center;
 }
-
 .pull-quote blockquote {
   border: none;
   margin: 0 auto;
@@ -1214,12 +1185,10 @@ hr.fancy::before {
   padding-top: var(--vspace-2_5);
   position: relative;
 }
-
 .pull-quote blockquote p {
   font-weight: 400;
   color: var(--color-text-dark);
 }
-
 .pull-quote blockquote:before {
   content: "";
   display: block;
@@ -1234,7 +1203,6 @@ hr.fancy::before {
   top: var(--vspace-1);
   left: 50%;
 }
-
 .drop-cap:first-letter {
   float: left;
   font-family: var(--font-1);
@@ -1246,54 +1214,43 @@ hr.fancy::before {
   background: transparent;
   color: var(--color-text-dark);
 }
-
 .text-center {
   text-align: center;
 }
-
 .text-left {
   text-align: left;
 }
-
 .text-right {
   text-align: right;
 }
-
 ol {
   list-style: decimal;
 }
-
 ul {
   list-style: disc;
 }
-
 li {
   display: list-item;
 }
-
 ol,
 ul {
   margin-left: 1.6rem;
 }
-
 ul li {
   padding-left: .4rem;
 }
-
 ul ul,
 ul ol,
 ol ol,
 ol ul {
   margin: 1.6rem 0 1.6rem 1.6rem;
 }
-
 ul.disc li {
   display: list-item;
   list-style: none;
   padding: 0 0 0 .8rem;
   position: relative;
 }
-
 ul.disc li::before {
   content: "";
   display: inline-block;
@@ -1306,66 +1263,53 @@ ul.disc li::before {
   top: 11px;
   vertical-align: middle;
 }
-
 dt {
   margin: 0;
   color: var(--color-1);
 }
-
 dd {
   margin: 0 0 0 2rem;
 }
-
 .lining dt,
 .lining dd {
   display: inline;
   margin: 0;
 }
-
 .lining dt+dt:before,
 .lining dd+dt:before {
   content: "\A";
   white-space: pre;
 }
-
 .lining dd+dd:before {
   content: ", ";
 }
-
 .lining dd+dd:before {
   content: ", ";
 }
-
 .lining dd:before {
   content: ": ";
   margin-left: -0.2em;
 }
-
 .dictionary-style dt {
   display: inline;
   counter-reset: definitions;
 }
-
 .dictionary-style dt+dt:before {
   content: ", ";
   margin-left: -0.2em;
 }
-
 .dictionary-style dd {
   display: block;
   counter-increment: definitions;
 }
-
 .dictionary-style dd:before {
   content: counter(definitions, decimal) ". ";
 }
-
 fieldset,
 button,
 .btn {
   margin-bottom: var(--vspace-0_5);
 }
-
 input,
 textarea,
 select,
@@ -1384,7 +1328,6 @@ img,
 .ss-custom-select {
   margin-bottom: var(--vspace-1);
 }
-
 #preloader {
   position: fixed;
   display: flex;
@@ -1397,11 +1340,9 @@ img,
   width: 100%;
   opacity: 1;
 }
-
 .no-js #preloader {
   display: none;
 }
-
 #loader {
   width: var(--vspace-2);
   height: var(--vspace-2);
@@ -1411,7 +1352,6 @@ img,
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
 }
-
 @-webkit-keyframes sk-scaleout {
   0% {
     -webkit-transform: scale(0);
@@ -1423,7 +1363,6 @@ img,
     opacity: 0;
   }
 }
-
 @keyframes sk-scaleout {
   0% {
     transform: scale(0);
@@ -1437,7 +1376,6 @@ img,
 fieldset {
   border: none;
 }
-
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -1464,12 +1402,10 @@ select {
   border-bottom: 1px solid var(--color-border);
   transition: all .3s ease-in-out;
 }
-
 .ss-custom-select {
   position: relative;
   padding: 0;
 }
-
 .ss-custom-select select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1480,17 +1416,14 @@ select {
   vertical-align: middle;
   line-height: var(--vspace-1);
 }
-
 .ss-custom-select select option {
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: var(--color-body);
 }
-
 .ss-custom-select select::-ms-expand {
   display: none;
 }
-
 .ss-custom-select::after {
   border-bottom: 1px solid white;
   border-right: 1px solid white;
